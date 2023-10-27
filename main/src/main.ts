@@ -12,7 +12,8 @@ const biBase = "/bi";
 registerMicroApps([
   {
     name: "bi", // app name registered
-    entry: "//localhost:8080/bi/",
+    entry: "//localhost:8081/",
+    //entry: "//localhost:8080/bi/",
     container: "#qiankunView",
     activeRule: (location) => location.hash.startsWith("#/bi"),
     props: {
